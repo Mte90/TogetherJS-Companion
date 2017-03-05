@@ -7,25 +7,30 @@
   "homepage_url": "https://github.com/Mte90/TogetherJS-Companion",
   "icons": {
     "16": "icons/icon-16.png",
-    "48": "icons/icon-48.png",
-    "128": "icons/icon-128.png"
+    "48": "icons/icon-48.png"
   },
   "web_accessible_resources": [
-      "js/init.js",
-      "js/inject.js",
-      "js/content-inject.js"
+    "js/init.js",
+    "js/inject.js",
+    "js/content-inject.js"
   ],
   "background": {
-    "scripts": ["js/init.js"]
+    "scripts": [
+      "js/init.js"
+    ]
   },
-   "content_scripts": [
+  "content_scripts": [
     {
-      "matches": ["<all_urls>"],
-      "js": ["js/content-inject.js"]
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": [
+        "js/content-inject.js"
+      ]
     }
-],
+  ],
   "permissions": [
     "contextMenus",
     "activeTab"
-]
+  ]
 }
