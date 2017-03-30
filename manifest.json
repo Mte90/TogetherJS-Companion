@@ -3,7 +3,7 @@
   "description": "Add TogetherJS with a click",
   "manifest_version": 2,
   "name": "TogetherJS Companion",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "homepage_url": "https://github.com/Mte90/TogetherJS-Companion",
   "icons": {
     "16": "icons/icon-16.png",
@@ -12,7 +12,8 @@
   "web_accessible_resources": [
     "js/init.js",
     "js/inject.js",
-    "js/content-inject.js"
+    "js/content-inject.js",
+    "js/togetherjs-min.js"
   ],
   "background": {
     "scripts": [
